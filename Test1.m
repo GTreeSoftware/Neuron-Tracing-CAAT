@@ -1,13 +1,7 @@
 clc;clear;close all;
 
 %% load the segmentation result into images
-image_name='F:\AdaptiveTracing_CMP\L1\21168_37926_1200_prob2.tif';
-% image_name='F:\AdaptiveTracing_CMP\S3\3_prob2.tif';
-% image_name='F:\AdaptiveTracing_CMP\S4\4_prob2.tif';
-% image_name='F:\AdaptiveTracing_CMP\S7\7_prob2.tif';
-% image_name='F:\AdaptiveTracing_CMP\S8\8_prob2.tif';
-% image_name='F:\AdaptiveTracing_CMP\For_Show\6734_33262_4420_prob0.tif';
-
+image_name='image\1.tif';
 [image,image_size] = Read_3D_Tiff( image_name );
 
 %% 1. calculate the threshold for the image
