@@ -31,7 +31,7 @@ The deep learning algorithm requires enough RAM and GPU to support the calculati
 
 ### CNN code for neurite prediction:
 
-The code and model that used for neurite prediction can be accessed via: https://github.com/GTreeSoftware/DB-Enhance. Detailed explanations can be accessed via the "readme" file in the website. 
+The code that used for neurite prediction can be accessed via: https://github.com/GTreeSoftware/DB-Enhance. Detailed explanations can be accessed via the "readme" file in the website. 
 
 ### CAAT code for neurite tracing:
 
@@ -52,4 +52,4 @@ We also include 7 testing images for testing  in the 'image' file under the 'CAA
 The original image (uint8  format) are put in the 'image' file, and the corresponding CNN predicted neurite probability are put in the 'prob' file.  
 
 Image 7 is a larger image with size 1000×1000 ×300. It contains multiple neurites with inhomogeneous intensities.
-The datasets can be accessed via: https://github.com/GTreeSoftware/DB-Enhance/releases/tag/testdata1.
+The datasets can be accessed via: https://github.com/GTreeSoftware/Automated-neuron-tracing-using-content-aware-adaptive-voxel-scooping-on-CNN-predicted-probability-ma/releases/tag/1.01.
